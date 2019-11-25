@@ -1,0 +1,68 @@
+.card {
+  position: relative;
+  max-width: 308px;
+  background-color: #f6f6f6;
+  margin: 13px;
+  flex: 1;
+}
+
+.photo {
+  padding: 0;
+  width: 100%;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.title {
+  height: 60px;
+}
+
+.avatar {
+  margin: 0;
+  float: left;
+}
+
+.avatar img {
+  width: 50px;
+  margin: 0 10px 0 0;
+}
+
+.title h3 {
+  font-size: 23px;
+  color: #3a3a3a;
+  font-family: Arial, bold;
+  margin: 0;
+}
+
+.title h3 span {
+  font-size: 12px;
+  color: #adadad;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+.title,
+.text,
+.heart {
+  margin: 19px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 1.583;
+  color: #3a3a3a;
+  font-family: Arial;
+}
+
+.heart {
+  height: 30px;
+}
+
+.heart img {
+  position: absolute;
+  width: 20px;
+  cursor: pointer;
+  bottom: 19px;
+}

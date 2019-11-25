@@ -1,0 +1,31 @@
+.container {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.slider_cards {
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.slider_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.left,
+.right {
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.left:focus,
+.right:focus {
+  outline: none;
+}
